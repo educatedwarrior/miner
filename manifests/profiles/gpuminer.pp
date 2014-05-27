@@ -1,6 +1,6 @@
 class miner::profiles::gpuminer (	) {
 
-    $packages_dep1= ['libcurl4-openssl-dev','automake', 'pkg-config', 'libtool']
+    $packages_dep1= ['libcurl4-openssl-dev','automake', 'pkg-config', 'libtool','p7zip-full']
 
     $git_repository="https://github.com/prettyhatemachine/sph-sgminer.git"
     $miner_dir="/root/sph-sgminer"
